@@ -2,11 +2,11 @@ import random
 
 possible_actions = ['rock', 'paper', 'scissors']
 user_name = input('Enter your name: ')
-print('Hi {}! Tyree would like you to test out his game!'.format(user_name))
+print('Hi {}! Meek would like you to test out his game!'.format(user_name))
 
 
 def error_message():
-    print('{} is not a valid choice!! You are stupid'.format(user_action))
+    print('{} is not a valid choice!! Try Again'.format(user_action))
 
 
 while True:
